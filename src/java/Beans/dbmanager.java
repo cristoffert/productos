@@ -27,7 +27,7 @@ public class dbmanager {
         try {
             
             Class.forName(this.driver);
-            System.out.println("Entrando a la conexion");
+            System.out.println("Entrando a la conexion... ejemplo que se tiene que ver reflejado en github");
                 return (DriverManager.getConnection(url,user,pass));
         }
         catch (Exception e) {
